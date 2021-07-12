@@ -1,0 +1,24 @@
+Package: anytime
+Title: Analysis of Anytime Algorithm Performance
+Version: 0.0.1
+Authors@R:
+    person(given = "Alexandre D.",
+           family = "Jesus",
+           role = c("aut", "cre"),
+           email = "ajesus@dei.uc.pt",
+           comment = c(ORCID = "0000-0001-7691-0295"))
+Description: Visualize, measure, and compare the anytime behavior of algorithms.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    dplyr,
+    ggplot2,
+    rlang
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends:
+    R (>= 2.10)
