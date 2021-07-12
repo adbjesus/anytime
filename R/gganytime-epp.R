@@ -33,7 +33,7 @@ gganytime_epp <- function(data, tvar, qvar, rvar, avar,
   if (!is.null(algo))
     data <- data %>% filter({{avar}} == !!algo)
 
-  data <- data %>%
+  data %>%
     confine({{tvar}}, {{qvar}}, {{rvar}}, {{avar}}, tlim = tlim, qlim = qlim,
             qmax = maximizing, extend = TRUE) %>%
     calculate_epp({{tvar}}, {{qvar}}, {{rvar}}, {{avar}}, tlim, qlim,
