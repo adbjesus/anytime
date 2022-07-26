@@ -1,0 +1,31 @@
+{
+    "title": "anytime",
+
+    "description": "Utilities for analyzing anytime behavior",
+
+    "keywords": [
+        "anytime",
+        "utilities",
+        "optimization"
+    ],
+
+    "upload_type": "software",
+
+    "license": "gpl-3.0-or-later",
+
+    "access_right": "open",
+
+    "creators": [
+        {
+            "orcid": "0000-0001-7691-0295",
+            "affiliation": "University of Coimbra",
+            "name": "Jesus, Alexandre D."
+        }
+    ],
+
+    "grants": [
+        {
+            "id": "10.13039/501100001871::SFRH/BD/132275/2017"
+        }
+    ]
+}
